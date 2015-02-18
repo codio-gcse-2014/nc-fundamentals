@@ -7,7 +7,7 @@ layout: 2-panels-tree
 Most of you understand what a computer system is already. You may be surprised at how many household devices are computer systems or contains computer systems. In a moment, we'll list some of them our for you, including Alarm Clocks, Washing Machines, Phones and Cameras.
 
 
-## The 4 main components of a computer System
+## The 4 main components of a computer system
 Any computer system is made up of 4 main components
 
 - **Input** : information and data from components or devices provided to the computer system
