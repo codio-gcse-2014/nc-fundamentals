@@ -1,0 +1,213 @@
+/*body {*/
+	/*background: url("images/bgr_texture.png") top left repeat;*/
+/*}*/
+body:after {
+	content: url("images/storage_table_separator.png")
+	url("images/storage_table_dark_separator.png")
+	url("images/header_arrow_down.png")
+	url("images/header_arrow_up.png");
+	display: none;
+}
+.fn_animated_table {
+	font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+	font-size: 14px;
+	max-width: 725px;
+	min-width: 480px;
+	overflow: hidden;
+	margin: 50px auto;
+}
+.fn_animated_table .fn_item {
+	clear: left;
+	position: relative;
+	border-bottom: 1px solid #444547;
+	background: #26292c;
+	color: #a4a4a4;
+	overflow: hidden;
+}
+.fn_animated_table .fn_item:last-child {
+	border-bottom: none;
+}
+.fn_animated_table .fn_type {
+	width: 125px;
+	height: 110px;
+	float: left;
+	display: table;
+}
+.fn_animated_table .fn_type > div {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative
+}
+.fn_animated_table .fn_type h1 {
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	margin-top: -29px;
+	text-transform: uppercase;
+    font-weight: 400;
+	font-size: 12px;
+	letter-spacing: -0.05em;
+}
+.fn_animated_table .fn_row_1 {
+	margin-left: 125px;
+	overflow: auto;
+}
+.fn_animated_table .fn_row_2 {
+	margin-left: 125px;
+	height: 0;
+}
+.fn_animated_table .fn_row_1 > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	height: 110px;
+	text-align: center;
+	display: table;
+	background: url("images/storage_table_dark_separator.png") right center no-repeat;
+	background-size: 1px 100%;
+}
+.fn_animated_table .fn_row_1 > div:last-child {
+	background: none;
+}
+.fn_animated_table .fn_row_1 p {
+	font-size: 15px;
+}
+.fn_animated_table .fn_row_2 p {
+	font-size: 14px;
+}
+.fn_animated_table .fn_row_1 > div > div {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 12px;
+}
+.fn_animated_table .fn_capacity {
+	width: 35%;
+}
+.fn_animated_table .fn_speed {
+	width: 30%;
+}
+.fn_animated_table .fn_cost {
+	width: 15%;
+}
+.fn_animated_table .fn_volatile {
+	width: 20%;
+}
+.fn_animated_table .fn_description {
+	padding: 30px;
+	color: #bcbfc1;
+}
+.fn_animated_table .fn_description > div > p:first-child {
+	color: #e6e6e6;
+	margin-bottom: 20px;
+}
+.fn_animated_table .fn_arrow {
+	position: absolute;
+	z-index: 3;
+	top: 45px;
+	left: 125px;
+	width: 10px;
+	height: 20px;
+}
+.fn_animated_table .fn_arrow .fn_graphics {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+/*.fn_animated_table .fn_item img {*/
+	/*display: block;*/
+/*}*/
+.fn_animated_table .fn_cpu .fn_type {
+	background: #00547c;
+}
+.fn_animated_table .fn_ram .fn_type {
+	background: #008870;
+}
+.fn_animated_table .fn_rom .fn_type {
+	background: #4C9D40;
+}
+.fn_animated_table .fn_hdd .fn_type {
+	background: #e57e23;
+}
+.fn_animated_table .fn_ssd .fn_type {
+	background: #BF392C;
+}
+.fn_animated_table .fn_flash .fn_type {
+	background: #7f345f;
+}
+.fn_animated_table .fn_cpu .fn_arrow .fn_graphics {
+	border-left: 10px solid #00547c;
+}
+.fn_animated_table .fn_ram .fn_arrow .fn_graphics {
+	border-left: 10px solid #008870;
+}
+.fn_animated_table .fn_rom .fn_arrow .fn_graphics {
+	border-left: 10px solid #4C9D40;
+}
+.fn_animated_table .fn_hdd .fn_arrow .fn_graphics {
+	border-left: 10px solid #e57e23;
+}
+.fn_animated_table .fn_ssd .fn_arrow .fn_graphics {
+	border-left: 10px solid #BF392C;
+}
+.fn_animated_table .fn_flash .fn_arrow .fn_graphics {
+	border-left: 10px solid #7f345f;
+}
+.fn_animated_table .fn_header {
+	height: 65px;
+	background: #161616;
+	background-size: 100% 65px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #999;
+	line-height: 65px;
+	font-size: 13px;
+	letter-spacing: -0.05em;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.fn_animated_table .fn_header .fn_percentual_wrapper {
+	margin-left: 125px;
+}
+.fn_animated_table .fn_header .fn_percentual_wrapper > div {
+	float: left;
+}
+.fn_animated_table .fn_by_type {
+	width: 125px;
+	float: left;
+}
+.fn_animated_table .fn_by_capacity {
+	width: 35%;
+}
+.fn_animated_table .fn_by_speed {
+	width: 30%;
+}
+.fn_animated_table .fn_by_cost {
+	width: 15%;
+}
+.fn_animated_table .fn_by_volatile {
+	width: 20%;
+}
+.fn_animated_table .fn_header .fn_title:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.fn_animated_table .fn_header p {
+	display: inline;
+}
+.fn_animated_table .fn_ascending > p {
+	padding-right: 15px;
+	background: url("images/header_arrow_up.png") right center no-repeat;
+	color: #d9d9d9;
+}
+.fn_animated_table .fn_descending > p {
+	padding-right: 15px;
+	background: url("images/header_arrow_down.png") right center no-repeat;
+	color: #d9d9d9;
+}
