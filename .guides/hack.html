@@ -1,0 +1,269 @@
+<html>
+    <head>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://imitate-critic.preview-test1.codiodev.com/.guides/css/animatedtable.css"/>
+        <script src="https://imitate-critic.preview-test1.codiodev.com/.guides/js/AnimatedTable.js"></script>
+    </head>
+    <body>
+        <div class="fn_animated_table">
+            <div class="fn_header">
+                <div class="fn_by_type fn_title" data-sort-by="data-type"><p>Type</p></div>
+                <div class="fn_percentual_wrapper">
+                    <div class="fn_by_capacity fn_title" data-sort-by="data-capacity"><p>Capacity</p></div>
+                    <div class="fn_by_cost fn_title" data-sort-by="data-cost"><p>Cost</p></div>
+                    <div class="fn_by_speed fn_title" data-sort-by="data-speed"><p>Speed</p></div>
+                    <div class="fn_by_volatile fn_title" data-sort-by="data-volatile"><p>Volatile</p></div>
+                </div>
+            </div>
+            <div class="fn_item fn_cpu" data-type="6" data-capacity="6" data-cost="1" data-speed="6" data-volatile="6">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_cpu.png" alt="Storage type CPU">
+                        <h1>CPU Cache</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>1-64MB</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>N/A</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Many times speed of RAM</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>CPU Cache lives on the same chip as the CPU and is exceptionally fast. The CPU tries to load commonly accessed code and data into the cache to boost performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn_item fn_ram" data-type="3" data-capacity="4" data-cost="6" data-speed="5" data-volatile="5">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_ram.png" alt="Storage type RAM">
+                        <h1>RAM</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>Up to 4GB per chip</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>$$$</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Fastest</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>The most expensive form of capacity but also the fastest. All devices have some. A washing machine needs very little, a multi-media PC can't have enough.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn_item fn_rom" data-type="2" data-capacity="5" data-cost="5" data-speed="4" data-volatile="3">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_rom.png" alt="Storage type Flash">
+                        <h1>ROM</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>Usually MBs rather than GBs</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>$$</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Fast</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>Read Only capacity is used to store data that never changes. They are prepgrammed before being installed in a device. Usually contains programs that boot-up (start) a device.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn_item fn_hdd" data-type="4" data-capacity="1" data-cost="2" data-speed="1" data-volatile="4">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_hdd.png" alt="Storage type HDD">
+                        <h1>Magnetic hard drive</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>50GB to 1TB or more</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>$</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Slow</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>Yes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>Used to store large amounts of data that persist without power.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn_item fn_ssd" data-type="1" data-capacity="2" data-cost="4" data-speed="3" data-volatile="2">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_ssd.png" alt="Storage type SSD">
+                        <h1>Solid state drive</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>50GB to 500GB</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>$$</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Quite fast</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>Like magnetic hard disks, but uses Flash capacity chips (and sometimes RAM) rather than magnetic disks. Will replace hard disks as costs come down.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fn_item fn_flash" data-type="5" data-capacity="3" data-cost="3" data-speed="2" data-volatile="1">
+                <div class="fn_type">
+                    <div>
+                        <img src="https://imitate-critic.preview-test1.codiodev.com/.guides/img/_storage_types_flash.png" alt="Storage type Flash">
+                        <h1>Flash memory</h1>
+                    </div>
+                </div>
+                <div class="fn_arrow">
+                    <div class="fn_graphics"></div>
+                </div>
+                <div class="fn_row_1">
+                    <div class="fn_capacity">
+                        <div>
+                            <p>256GB or more</p>
+                        </div>
+                    </div>
+                    <div class="fn_cost">
+                        <div>
+                            <p>$$</p>
+                        </div>
+                    </div>
+                    <div class="fn_speed">
+                        <div>
+                            <p>Quite fast</p>
+                        </div>
+                    </div>
+                    <div class="fn_volatile">
+                        <div>
+                            <p>No</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fn_row_2">
+                    <div class="fn_description">
+                        <div>
+                            <p>Description</p>
+                            <p>Used in SD cards, USB sticks and Solid State Drives, smartphones etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -36,7 +36,7 @@ An input device is a peripheral (piece of computer hardware equipment) used to p
 
 ### Input Devices 
 
-![](.guides/img/devices_input.png)
+![](.guides/img/devices_input2.png)
 |||
 
 
@@ -92,19 +92,7 @@ files: []
 ---
 Here is a table of household devices and a few of the components they might have.
 
-|||interactive-table
-
-| Type | Capacity | Cost | Speed | Volatile | Description |
-|------|----------|------|-------|----------|-------------|
-|![](.guides/img/_storage_types_cpu.png) CPU Cache| 1-64MB | NA | Many times speed of RAM | Yes | CPU Cache lives on the same chip as the CPU and is exceptionally fast. The CPU tries to load commonly accessed code and data into the cache to boost performance. |
-|![](.guides/img/_storage_types_ram.png) RAM | Up to 8BG per chip | $$$ | Fastest | Yes | The most expensive form of capacity but also the fastest. All devices have some. A washing machine needs very little, a multi-media PC can't have enough. |
-|![](.guides/img/_storage_types_rom.png) ROM | Usually MB rather than GBs | $$ | Fast | No | Read Only capacity is used to store data that never changes. They are prepgrammed before being installed in a device. Usually contains programs that boot-up (start) a device. |
-|![](.guides/img/_storage_types_hdd.png) Magnetic Hard Drive | 500GB - 1TB or more | $ | Slow | Yes | Used to store large amounts of data that persist without power. |
-|![](.guides/img/_storage_types_ssd.png) Solid State Drive | 50GB - 500GB | $$ | Quite Fast | No | Like magnetic hard disks, but uses Flash capacity chips (and sometimes RAM) rather than magnetic disks. Will replace hard disks as costs come down. |
-|![](.guides/img/_storage_types_flash.png) Flash Memory | 256GB and more | $$ | Quite Fast | No | Used in SD cards, USB sticks and Solid State Drives, smartphones etc. |
-
-
-|||
+<iframe src="https://imitate-critic.preview-test1.codiodev.com/.guides/hack.html" width="559px" height="1200px" style="border:none"></iframe>
 
 
 Other example computer systems include

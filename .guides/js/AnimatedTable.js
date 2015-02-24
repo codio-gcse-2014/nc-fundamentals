@@ -65,7 +65,7 @@ com.codio.AnimatedTable.prototype.open = function(item) {
 	$row2.height(0);
 
 	$(item).css("z-index", 2);
-	$row1Divs.css("background-image", "url('images/storage_table_separator.png')");
+	$row1Divs.css("background-image", "url('img/storage_table_separator.png')");
 	TweenMax.to(item, tweenTime, {backgroundColor: "#444547"});
 	TweenMax.to($row1, tweenTime, {color: "#e6e6e6"});
 	TweenMax.to($row1Divs, tweenTime, {backgroundSize: "1px 50px"});
@@ -85,7 +85,7 @@ com.codio.AnimatedTable.prototype.close = function(item) {
 	var tweenTime = com.codio.AnimatedTable.TWEEN_TIME;
 
 	$(item).css("z-index", 1);
-	$row1Divs.css("background-image", "url('images/storage_table_dark_separator.png')");
+	$row1Divs.css("background-image", "url('img/storage_table_dark_separator.png')");
 	TweenMax.to(item, tweenTime, {backgroundColor: "#26292c"});
 	TweenMax.to($row1, tweenTime, {color: "#a4a4a4"});
 	TweenMax.to($row1Divs, tweenTime, {backgroundSize: "1px 100%"});
@@ -110,3 +110,8 @@ com.codio.AnimatedTable.prototype.sortItems = function(attributeName, ascending)
 com.codio.AnimatedTable.destroy = function() {
 	this._removeListeners();
 }
+
+$(window).load(function () {
+    var at = new com.codio.AnimatedTable($(".fn_animated_table")[0]);    
+});
+

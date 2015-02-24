@@ -1,11 +1,11 @@
 /*body {*/
-	/*background: url("images/bgr_texture.png") top left repeat;*/
+	/*background: url("../img/bgr_texture.png") top left repeat;*/
 /*}*/
 body:after {
-	content: url("images/storage_table_separator.png")
-	url("images/storage_table_dark_separator.png")
-	url("images/header_arrow_down.png")
-	url("images/header_arrow_up.png");
+	content: url("../img/storage_table_separator.png")
+	url("../img/storage_table_dark_separator.png")
+	url("../img/header_arrow_down.png")
+	url("../img/header_arrow_up.png");
 	display: none;
 }
 .fn_animated_table {
@@ -65,7 +65,7 @@ body:after {
 	height: 110px;
 	text-align: center;
 	display: table;
-	background: url("images/storage_table_dark_separator.png") right center no-repeat;
+	background: url("../img/storage_table_dark_separator.png") right center no-repeat;
 	background-size: 1px 100%;
 }
 .fn_animated_table .fn_row_1 > div:last-child {
@@ -203,11 +203,11 @@ body:after {
 }
 .fn_animated_table .fn_ascending > p {
 	padding-right: 15px;
-	background: url("images/header_arrow_up.png") right center no-repeat;
+	background: url("../img/header_arrow_up.png") right center no-repeat;
 	color: #d9d9d9;
 }
 .fn_animated_table .fn_descending > p {
 	padding-right: 15px;
-	background: url("images/header_arrow_down.png") right center no-repeat;
+	background: url("../img/header_arrow_down.png") right center no-repeat;
 	color: #d9d9d9;
 }
