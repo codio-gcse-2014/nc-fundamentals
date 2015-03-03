@@ -1,7 +1,7 @@
 ---
 title: What is a computer system?
 files: []
-layout: 2-panels-tree
+layout: ""
 
 ---
 Most of you understand what a computer system is already. You may be surprised at how many household devices are computer systems or contains computer systems. In a moment, we'll list some of them our for you, including Alarm Clocks, Washing Machines, Phones and Cameras.
@@ -15,11 +15,11 @@ Any computer system is made up of 4 main components
 - **Store** : Computer systems need to store data so it can be processed. This includes memory, disk drives and other forms of storage.
 - **Processing** : This generally means the CPU (or processor), which is the brain of the computer system. It involves running programs as well as coordinating the flow of information between input devices, output devices and storage.
 
->The above 4 component system is known as the Von Neumann acrchitecture.
+|||info
+The above 4 component system is known as the Von Neumann acrchitecture.
+|||
 
 Let's take a look at typical examples of the 4 components of a computer system.
-
-
 
 
 ---
@@ -29,12 +29,18 @@ files: []
 ---
 Take a look at the following input devices and you should get a clear idea about what an input device is.
 
->An input device is a peripheral (piece of computer hardware equipment) used to provide data and control signals to an information processing system such as a computer or other information appliance.
 
-| Input Devices |
-|-|
-| ![](.guides/img/input.jpg)
-(show other types)
+|||info
+An input device is a peripheral (piece of computer hardware equipment) used to provide data and control signals to an information processing system such as a computer or other information appliance.
+|||
+
+|||image-table
+
+### Input Devices 
+
+![](.guides/img/devices_input2.png)
+|||
+
 
 
 ---
@@ -42,12 +48,16 @@ title: Output devices
 files: []
 
 ---
-> An output device is any piece of computer hardware equipment used to communicate the results of data processing carried out by an information processing system (such as a computer) into human-understandable form.
+|||info
+An output device is any piece of computer hardware equipment used to communicate the results of data processing carried out by an information processing system (such as a computer) into human-understandable form.
+|||
 
-| Output Devices |
-|-|
-| ![](.guides/img/output.jpg)
-(show other types)
+|||image-table
+### Output Devices 
+
+![](.guides/img/devices_output.png)
+|||
+
 ---
 title: Store
 files: []
@@ -55,32 +65,35 @@ files: []
 ---
 There are two main types of stores. We'll disucss these storage types in more detail in a later section.
 
-| Primary Storage - Memory|
-|-|
-| ![](.guides/img/prim-storage.jpg) |
-| Primary storage (or main memory or internal memory), often referred to simply as memory, is the only one directly accessible to the CPU. The CPU continuously reads instructions stored there and executes them as required. RAM and ROM are the most common examples.|
+## Primary Storage - Memory
 
-| Secondary Storage - Memory |
-|-|
-| ![](.guides/img/sec-storage.jpg) |
-| Secondary storage (also known as external memory or auxiliary storage), differs from primary storage in that it is not directly accessible by the CPU. A hard drives is the most common example although you can see there are many others. Secondary storage is most often *non-volatile* which means it retains information when the power is switched off.|
+|||image
+![](.guides/img/04_store_photo_ram.jpg)
+
+Primary Storage - Memory
+|||
+
+Primary storage (or main memory or internal memory), often referred to simply as memory, is the only one directly accessible to the CPU. The CPU continuously reads instructions stored there and executes them as required. RAM and ROM are the most common examples.|
+
+## Secondary Storage - Memory
+
+
+|||image
+![](.guides/img/04_store_photo_secondary.png) 
+
+Secondary Storage - Memory
+|||
+
+Secondary storage (also known as external memory or auxiliary storage), differs from primary storage in that it is not directly accessible by the CPU. A hard drives is the most common example although you can see there are many others. Secondary storage is most often *non-volatile* which means it retains information when the power is switched off.|
 
 
 ---
-title: Example Computer Systems
+title: Storage Types
 files: []
 
 ---
 Here is a table of household devices and a few of the components they might have.
-
-[add a few more example to the listthis list should contain lots of options as just images. The user would mouse over to get a pop-up info box]
-
-| Device | Input | Output | Processor | Store |
-|-|-|-|-|-|
-| ![](.guides/img/mac.jpg)   | Keyboard, mouse, touchpad, microphone, USB, network | Screen, network, USB, speakers | Intel or AMD processors | Hard disk, RAM(1) |
-| ![](.guides/img/samsung.jpg) | Touchscreen, network, GPS, accelerometer, camera, volume button, microphone | Screen, network, speaker | ARM | RAM, Flash Memory |
-| ![](.guides/img/pi.jpg) | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | ARM | RAM, SD-Card|
-| ![](.guides/img/bread-machine.jpg) | Temperature sensors, clock/timer | Mixer motor control, temperature control, display panel, speaker/beeper | Custom  | RAM, ROM |
+<iframe src="https://imitate-critic.preview-test1.codiodev.com/.guides/hack.html" width="559px" height="800px" style="border:none"></iframe>
 
 Other example computer systems include
 
@@ -116,10 +129,10 @@ If software fails then the effect can vary.
 
 | System Type | Seriousness | Description |
 |-|-|-|
-| IMG Pacemaker | Faintness or even death | If the software would fail, then either pacemaker would stop completely or it could send out pulses to stimulate the heart and an irregular or even  very fast rate, neither of which are comfortable |
-| IMG Traffic | Traffic jams or even death | Traffic lights fail to operate correctly resulting in chaos or accidents. |
-| IMG Gaming | Annoying | You are about to achieve your high score when the game crashes or freezes. Your life is temporarily ruined. |
-| IMG Word processor | Lost work | You have been editing a document for 2 hours without saving then it crashes. You have lost 2 hours of work. Other than testing, adding an auto-save feature can prevent this, which modern word-processors all have. |
+| ![](.guides/img/ico_table_pacemaker.png)<br>Pacemaker | Faintness or even death | If the software would fail, then either pacemaker would stop completely or it could send out pulses to stimulate the heart and an irregular or even  very fast rate, neither of which are comfortable |
+| ![](.guides/img/ico_table_traffic.png)<br>Traffic Management | Traffic jams or even death | Traffic lights fail to operate correctly resulting in chaos or accidents. |
+| ![](.guides/img/ico_table_gaming.png)<br>Gaming | Annoying | You are about to achieve your high score when the game crashes or freezes. Your life is temporarily ruined. |
+| ![](.guides/img/ico_table_word_processor.png)<br>Work | Lost work | You have been editing a document for 2 hours without saving then it crashes. You have lost 2 hours of work. Other than testing, adding an auto-save feature can prevent this, which modern word-processors all have. |
 
 ## Testing
 Software engineers spend a lot of time writing code with reliability in mind. The table below shows the various ways software development teams look to enhance reliability through testing.
@@ -172,8 +185,8 @@ The following table lists some well-known software standards.
 
 | Standard | Description |
 |-|-|
-| IMG PDF | Allows any document (text, spreadsheet, image, web-page etc.) to be distributed to anyone with a PDF reader. All modern computers, tablets and iPhones have PDF readers preinstalled. |
-| IMG ASCII | This is an old standard that specified how computer characters are represented internally For example, A=65, B=66, 1=49, 2=50. The word 'CAT' is stored in a computer as the number sequence 67, 65, 84. This is how data messages can be reliably sent between systems of any type and reliably understood. |
-| IMG MP3 | This is well known standard for compressing and storing digital audio. |
-| IMG MP4 | A common standard for compressing and storing video |
+| ![](.guides/img/ico_table_pdf.png) | Allows any document (text, spreadsheet, image, web-page etc.) to be distributed to anyone with a PDF reader. All modern computers, tablets and iPhones have PDF readers preinstalled. |
+| ![](.guides/img/ico_table_ascii.png) | This is an old standard that specified how computer characters are represented internally For example, A=65, B=66, 1=49, 2=50. The word 'CAT' is stored in a computer as the number sequence 67, 65, 84. This is how data messages can be reliably sent between systems of any type and reliably understood. |
+| ![](.guides/img/ico_table_mp3.png) | This is well known standard for compressing and storing digital audio. |
+| ![](.guides/img/ico_table_mp4.png) | A common standard for compressing and storing video |
 
