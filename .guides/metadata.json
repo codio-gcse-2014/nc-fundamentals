@@ -1,0 +1,85 @@
+{
+ "sections": [
+  {
+   "id": "a7cdeeaa-a9fc-4ac0-64a2-792a83006ea5",
+   "title": "What is a computer system?",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/What-is-a-computer-system--a7cd.md"
+  },
+  {
+   "id": "5e82aa47-b2bd-9e8f-ce6e-1a3b578ceb0b",
+   "title": "Input Devices",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Input-Devices-5e82.md"
+  },
+  {
+   "id": "98463d76-c31c-2c9d-1a23-819f5ed4414",
+   "title": "Output devices",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Output-devices-9846.md"
+  },
+  {
+   "id": "2ec7eb8-7350-6b6c-40b4-89dcf617acf0",
+   "title": "Store",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Store-2ec7.md"
+  },
+  {
+   "id": "17434e3b-5cc7-c327-7c0d-bc345128f8b",
+   "title": "Storage Types",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Storage-Types-1743.md"
+  },
+  {
+   "id": "7038179-d86f-5906-f68d-a9b66905a04d",
+   "title": "Hardware reliability",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Hardware-reliability-7038.md"
+  },
+  {
+   "id": "a39feed0-e7fd-5b2-2686-e80caefc3fbc",
+   "title": "Software reliability",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Software-reliability-a39f.md"
+  },
+  {
+   "id": "8cde720e-189c-f2a0-e30b-e56144631716",
+   "title": "Standards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Standards-8cde.md"
+  },
+  {
+   "id": "da8fbfa0-29d1-1ca5-2c43-74392808687",
+   "title": "Hardware standards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Hardware-standards-da8f.md"
+  },
+  {
+   "id": "8a423903-9bdb-5ae1-32f4-f01a6c39eb93",
+   "title": "Software standards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Software-standards-8a42.md"
+  }
+ ]
+}
